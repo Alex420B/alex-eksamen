@@ -8,9 +8,9 @@
 /* root */
 
 :root {
-    --primary-color: #;
-    --secondary-color: #;
-    --tertiary-color: #;
+    --primary-color: #282A2B;
+    --secondary-color: #545b62;
+    --tertiary-color: #98AF7A;
     --font-family: 'arial', sans-serif;
     --secondary-font-family: 'times new roman', serif;
     --font-size-1: 48px;
@@ -18,4 +18,5 @@
     --font-size-3: 24px;
     --line-height: 1.5;
 }
+
 
