@@ -50,6 +50,30 @@ flex-direction: row;
     gap: 30.254px;
 }
 
+.produkt-title-underline{
+    font-family: var(--secondary-font-family);
+    font-size: var(--font-size-2);
+    line-height: var(--line-height);
+
+    text-decoration: underline;
+    text-align: center;
+}
+
+.produkt-title{
+    font-family: var(--secondary-font-family);
+    font-size: var(--font-size-2);
+    line-height: var(--line-height);
+    text-align: center;
+}
+
+.produkt-se-mere{
+    font-family: var(--secondary-font-family);
+    font-size: var(--font-size-3);
+    line-height: var(--line-height);
+    text-align: center;
+}
+
+
 .social-proof{
 
 }
