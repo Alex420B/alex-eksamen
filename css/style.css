@@ -20,11 +20,11 @@
 }
 
 body {
-    background-color: var(--primary-color);
+    background: linear-gradient(180deg, #545B62 0%, #262A2B 50%, #545B62 100%);
 }
 
 header {
-
+margin: 50px;
 }
 
 #hero-section {
@@ -42,15 +42,18 @@ justify-content: space-around;
 }
 
 .produkt{
-    margin: 20px;
+    margin: 50px;
     width: 410px;
-    height: 800px;
-    padding: 0 33px 67px 33px;
+    height: 900px;
+    padding: 0 33px 20px 33px;
     
     align-items: center;
     gap: 30.254px;
     border-radius: 20px;
     border: 1px solid var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -73,14 +76,18 @@ justify-content: space-around;
 }
 
 .produkt-se-mere{
+    display: flex;
     font-family: var(--secondary-font-family);
-    font-size: var(--font-size-3);
+    font-size: var(--font-size-1);
     line-height: var(--line-height);
     text-align: center;
     padding: 20px;
     background-color: var(--tertiary-color);
     border-radius: 20px;
     border: 1px solid var(--secondary-color);
+    justify-content: center;
+    text-decoration: underline;
+    
 }
 
 
