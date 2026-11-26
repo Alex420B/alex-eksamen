@@ -36,13 +36,18 @@ header {
 }
 
 #produkt-section{
-
+display: flex;
+flex-direction: row;
 }
 
 .produkt{
-    display: flex;
-    flex-direction: row;
-border: 1px solid red;
+    
+    width: 410px;
+    height: 800px;
+    padding: 0 33px 67px 33px;
+    
+    align-items: center;
+    gap: 30.254px;
 }
 
 .social-proof{
