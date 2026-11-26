@@ -40,13 +40,14 @@ header {
 }
 
 .produkt{
-
+    display: flex;
+    flex-direction: row;
+border: 1px solid red;
 }
 
 .social-proof{
 
 }
-
 #app-mockup{
 
 }
