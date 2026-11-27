@@ -93,10 +93,15 @@ justify-content: space-around;
 
 .social-proof{
     padding: 50px;
-
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .trust-card {
-    max-width: 360px;
+    width: 360px;
+    max-width: 100%;
     padding: 1px 20px 20px 20px;
     border-radius: 20px;
     background: #ffffff;
