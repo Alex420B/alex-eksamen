@@ -92,7 +92,54 @@ justify-content: space-around;
 
 
 .social-proof{
+    padding: 50px;
 
+}
+.trust-card {
+    max-width: 360px;
+    padding: 1px 20px 20px 20px;
+    border-radius: 20px;
+    background: #ffffff;
+    color: var(--primary-color);
+}
+
+.trust-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1px;
+}
+
+.trust-forbogstav {
+    display: grid;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--tertiary-color);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.trust-navn {
+    font-size: var(--font-size-2);
+}
+
+.trust-dato {
+    color: #6b7280;
+    font-size: var(--font-size-3);
+}
+
+.trust-stjerner {
+    margin: 10px 0 20px;
+    color: #f4b400;
+    letter-spacing: 2px;
+}
+
+.trust-beskrivelse {
+    line-height: var(--line-height);
 }
 #app-mockup{
 
