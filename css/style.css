@@ -11,8 +11,8 @@
     --primary-color: #282A2B;
     --secondary-color: #545b62;
     --tertiary-color: #98AF7A;
-    --font-family: 'arial', sans-serif;
-    --secondary-font-family: 'times new roman', serif;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --secondary-font-family: 'arial', sans-serif;
     --font-size-1: 48px;
     --font-size-2: 32px;
     --font-size-3: 24px;
@@ -28,7 +28,7 @@ margin: 50px;
 }
 
 #hero-section {
-
+font-family: 
 }
 
 #hero-title {
@@ -58,7 +58,7 @@ justify-content: space-around;
 }
 
 .produkt-title-underline{
-    font-family: var(--secondary-font-family);
+    font-family: var(--font-family);
     font-size: var(--font-size-2);
     line-height: var(--line-height);
 
@@ -68,7 +68,7 @@ justify-content: space-around;
 }
 
 .produkt-title{
-    font-family: var(--secondary-font-family);
+    font-family: var(--font-family);
     font-size: var(--font-size-2);
     line-height: var(--line-height);
     text-align: center;
@@ -94,9 +94,7 @@ justify-content: space-around;
 .social-proof{
     padding: 50px;
     display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 30px;
 }
 .trust-card {
